@@ -1,2 +1,49 @@
 # Game_of_thrones_ML_Task
-The solution to the prediction problem: whether the character of the TV series "Game of Thrones" will die or not.
+Решение задачи предсказания: умрет ли персонаж сериала "Игра Престолов" или нет.
+
+## Описание датасета
+
+Признаки:
+
+* **name**: Имя персонажа
+
+* **Title**: Социальный статус или знатность
+
+* **House**: Дом, к которому принадлежит персонаж
+
+* **Culture**: Социальная группа, к которой принадлежит персонаж
+
+* **book1/2/3/4/5**: Появление персонажа в книге
+
+* **Is noble**: Знатность персонажа, основанное на титуле
+
+* **Age**: Отсчет времени: 305 AC
+
+* **male**: Мужчина или женщина
+
+* **dateOfBirth**: дата рождения
+
+* **Spouse**: Имя супруги\а персонажа
+
+* **Father**: Имя отца персонажа
+
+* **Mother**: Имя матери персонажа
+
+* **Heir**: Имя наследника персонажа
+
+* **Is married**: Represents whether the character is married
+
+* **Is spouse alive**: Represents whether character's spouse is alive
+
+* **Is mother alive:** Жива ли мать персонажа
+
+* **Is heir alive:** Жив ли наследник персонажа
+
+* **Is father alive:** Указывает, жив ли отец персонажа
+
+* **Number dead relations:** Количество умерших персонажей, с которыми персонаж связан
+
+* **Popularity score:** Количество внутренних входящих и исходящих ссылок на страницу персонажей в вики http://awoiaf.westeros.org
+
+Целевая переменная:
+* **isAlive**: жив ли персонаж в книге
